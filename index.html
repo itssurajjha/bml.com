@@ -18,136 +18,491 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#articles">Articles</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#quote" class="nav-link">Get Quote</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <img src="images/01.jpeg" alt="guards on duty">
-    <div class="hero-overlay">
-      <div class="hero-content">
-        <h2>Your Trusted Partner in Safety & Manpower</h2>
-        <p>We deliver trained, verified manpower and modern security solutions — from event security to CCTV monitoring and long-term guarding contracts.</p>
-        <div class="cta">
-          <button class="btn primary">Request a Quote</button>
-          <button class="btn ghost">Learn More</button>
+  <!-- Home Section -->
+  <section id="home" class="section active">
+    <!-- Hero Slider -->
+    <div class="hero">
+      <div class="slider">
+        <div class="slide active">
+          <img src="images/01.jpeg" alt="guards on duty">
+          <div class="caption">
+            <h2>Your Trusted Partner in Safety & Manpower</h2>
+            <p>We deliver trained, verified manpower and modern security solutions — from event security to CCTV monitoring and long-term guarding contracts.</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="images/06.jpg" alt="housekeeping">
+          <div class="caption">
+            <h2>Professional Housekeeping & Facility Management</h2>
+            <p>From spotless glass cleaning to hygienic maintenance, our staff ensures your premises remain clean, organized, and welcoming.</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="images/07.jpeg" alt="event security">
+          <div class="caption">
+            <h2>Event Security & Crowd Management</h2>
+            <p>Dedicated teams for crowd control, access management, and quick response to emergencies at high-profile events.</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="images/13.jpeg" alt="elite guards">
+          <div class="caption">
+            <h2>Elite Security Guards & Personal Protection</h2>
+            <p>Uniformed guards, bodyguards, and VIP protection officers ensuring safety with professionalism and discipline.</p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="images/14.jpeg" alt="facility management">
+          <div class="caption">
+            <h2>Trusted Staffing & Security Solutions Since 1991</h2>
+            <p>Decades of experience in manpower, protection, and customized solutions for residences, corporates, and industries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Info Banner -->
+    <div class="quick-info">
+      <div class="site-wrap">
+        <p>Quick Deployment Of Security Guards For Your Business | Home | Apartments | Schools or Hospital</p>
+        <p>Guards Available in Delhi NCR | Pune | Mumbai | Hyderabad & All Major Cities</p>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="site-wrap">
+      <div class="grid">
+        <div>
+          <div class="card">
+            <h3>Our Journey</h3>
+            <p style="color:var(--muted)">Since 1991, BML Staffing Solutions has provided expert manpower and security services across residential, corporate and industrial clients. Our team focuses on training, vetting and reliable response — delivering measurable safety outcomes.</p>
+
+            <h4 style="margin-top:18px">Our Services</h4>
+            <div class="services">
+              <div class="service"><h4>Manned Guarding</h4><p>Access control, patrols, and incident reporting by trained personnel.</p></div>
+              <div class="service"><h4>Event Security</h4><p>Crowd management, marshals and rapid-response teams for events.</p></div>
+              <div class="service"><h4>Housekeeping & Facility Management</h4><p>Spotless glass cleaning to hygienic maintenance of premises, ensuring clean and welcoming spaces.</p></div>
+            </div>
+
+            <h4 style="margin-top:18px">Knowledge & Insights</h4>
+            <div class="articles">
+              <!-- Articles -->
+              <article class="article">
+                <img src="images/13.jpeg" alt="workforce planning">
+                <div class="body">
+                  <h5>Elite Security Guards & Personal Protection</h5>
+                  <p>Safeguarding offices, residences, and high-profile events with discipline and professionalism. VIP bodyguards also available.</p>
+                  <a class="read" href="#">Read more →</a>
+                </div>
+              </article>
+              <article class="article">
+                <img src="images/06.jpg" alt="security technology">
+                <div class="body">
+                  <h5>Professional Housekeeping & Facility Management</h5>
+                  <p>Our housekeeping staff undergoes rigorous training to deliver results that meet professional standards.</p>
+                  <a class="read" href="#">Read more →</a>
+                </div>
+              </article>
+              <article class="article">
+                <img src="images/12.jpeg" alt="training programs">
+                <div class="body">
+                  <h5>BML Staffing Solutions: Trusted Manpower & Security Services</h5>
+                  <p>With decades of experience, we provide end-to-end staffing and security solutions tailored for residences, corporates, events, and industries.</p>
+                  <a class="read" href="#">Read more →</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div style="margin-top:18px" class="card">
+            <h4>Gallery</h4>
+            <div class="gallery" id="gallery">
+              <img src="images/01.jpeg" alt="g1" data-full="images/01.jpeg">
+              <img src="images/02.jpeg" alt="g2" data-full="images/02.jpeg">
+              <img src="images/03.jpeg" alt="g3" data-full="images/03.jpeg">
+              <img src="images/04.jpeg" alt="g4" data-full="images/04.jpeg">
+              <img src="images/05.jpeg" alt="g5" data-full="images/05.jpeg">
+              <img src="images/06.jpg" alt="g6" data-full="images/06.jpg">
+              <img src="images/07.jpeg" alt="g7" data-full="images/07.jpeg">
+              <img src="images/08.jpeg" alt="g8" data-full="images/08.jpeg">
+              <img src="images/09.jpeg" alt="g9" data-full="images/09.jpeg">
+              <img src="images/10.jpeg" alt="g10" data-full="images/10.jpeg">
+              <img src="images/11.jpeg" alt="g11" data-full="images/11.jpeg">
+              <img src="images/12.jpeg" alt="g12" data-full="images/12.jpeg">
+              <img src="images/13.jpeg" alt="g13" data-full="images/13.jpeg">
+              <img src="images/14.jpeg" alt="g14" data-full="images/14.jpeg">
+              <img src="images/15.jpeg" alt="g15" data-full="images/15.jpeg">
+              <img src="images/16.jpeg" alt="g16" data-full="images/16.jpeg">
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h4>Contact & Quick Info</h4>
+            <div class="contact-info">
+              <div>📞 <a href="tel:9910760181">9910760181</a>, <a href="tel:9910760191">9910760191</a></div>
+              <div>✉️ <a href="mailto:bmlstaffsolution@gmail.com">bmlstaffsolution@gmail.com</a></div>
+              <div>📍 1/5A, Nasir Pur Palam, New Delhi-110045</div>
+            </div>
+            <div class="map-wrap">
+              <iframe class="map" loading="lazy" src="https://www.google.com/maps?q=1/5A,+Nasir+Pur+Palam,+New+Delhi-110045&output=embed"></iframe>
+            </div>
+          </div>
+
+          <div style="margin-top:18px" class="card">
+            <h4>Why choose BML?</h4>
+            <ul style="color:var(--muted);line-height:1.8">
+              <li>Vetted & trained personnel</li>
+              <li>24/7 support & rapid response</li>
+              <li>Customised staffing solutions</li>
+              <li>Transparent reporting & supervision</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </section>
+
+<!-- About Section -->
+<section id="about" class="section">
+  <div class="about-hero">
+    <img src="images/about2.jpg" alt="BML Staffing Solutions Team">
+    <div class="about-hero-text">
+      <h2>About BML Staffing Solutions</h2>
+      <p>Your trusted partner in manpower and security solutions since 1991</p>
+    </div>
+  </div>
+  
+  <div class="site-wrap">
+    <div class="about-content">
+                <div class="about-image">
+        <img src="images/about1.jpg" alt="BML Office">
+      </div>
+    </div>
+      <div class="about-text">
+        <h2>Our Story</h2>
+        <p>Founded in 1991, BML Staffing Solutions has grown from a small local provider to a trusted name in manpower and security services across India. Our journey began with a simple vision: to provide reliable, professional staffing solutions that businesses could depend on.</p>
+        
+        <p>Over the decades, we've expanded our services, refined our processes, and built a team of dedicated professionals who share our commitment to excellence. Today, we serve clients across multiple industries, from corporate offices to residential complexes, events, and industrial facilities.</p>
+        
+        <p>Our success is built on the trust of our clients and the dedication of our team. We take pride in our ability to understand each client's unique needs and deliver customized solutions that exceed expectations.</p>
+      </div>
+      
+    
+    <div class="achievements">
+      <div class="achievement">
+        <div class="achievement-number">30+</div>
+        <div>Years of Experience</div>
+      </div>
+      <div class="achievement">
+        <div class="achievement-number">2000+</div>
+        <div>Clients Served</div>
+      </div>
+      <div class="achievement">
+        <div class="achievement-number">5000+</div>
+        <div>Personnel Deployed</div>
+      </div>
+      <div class="achievement">
+        <div class="achievement-number">15+</div>
+        <div>Cities Across India</div>
+      </div>
+    </div>
+    
+    <div class="values-section">
+      <h2 style="text-align: center; margin-bottom: 10px;">Our Values</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 30px;">These core principles guide everything we do and define who we are as an organization</p>
+      
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">✓</div>
+          <h3>Integrity</h3>
+          <p>We conduct our business with honesty, transparency, and ethical practices. Our clients trust us to do the right thing, always.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">⚡</div>
+          <h3>Reliability</h3>
+          <p>We understand that our clients depend on us. That's why we're committed to delivering consistent, dependable service every time.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">★</div>
+          <h3>Excellence</h3>
+          <p>We strive for the highest standards in everything we do, from personnel selection to client service and support.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">🔄</div>
+          <h3>Innovation</h3>
+          <p>We continuously improve our processes and services to stay ahead of industry trends and meet evolving client needs.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">🤝</div>
+          <h3>Partnership</h3>
+          <p>We view ourselves as an extension of our clients' teams, working collaboratively to achieve their goals.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">🌱</div>
+          <h3>Sustainability</h3>
+          <p>We're committed to sustainable business practices that benefit our clients, employees, and communities.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="team-section">
+      <h2 style="text-align: center; margin-bottom: 10px;">Our Leadership</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 30px;">Experienced professionals guiding our company's vision and growth</p>
+      
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="team-image">
+            <img src="images/leader1.jpeg" alt="Founder & CEO">
+          </div>
+          <h3>Ravi Sharma</h3>
+          <p style="color: #c62828; font-weight: bold;">Founder & CEO</p>
+          <p>With over 30 years of industry experience, Ravi founded BML with a vision to redefine staffing solutions in India.</p>
+        </div>
+        
+        <div class="team-member">
+          <div class="team-image">
+            <img src="images/leader2.jpeg" alt="Operations Director">
+          </div>
+          <h3>Priya Singh</h3>
+          <p style="color: #c62828; font-weight: bold;">Operations Director</p>
+          <p>Priya ensures the smooth execution of all our services and maintains the high standards our clients expect.</p>
+        </div>
+        
+        <div class="team-member">
+          <div class="team-image">
+            <img src="images/leader2.jpeg" alt="HR & Training Head">
+          </div>
+          <h3>Vikram Mehta</h3>
+          <p style="color: #c62828; font-weight: bold;">HR & Training Head</p>
+          <p>Vikram oversees our recruitment and training programs, ensuring our personnel are among the best in the industry.</p>
+        </div>
+      </div>
+    </div>
+    
+<section class="presence-section">
+  <div class="card">
+    <h2>🌍 Our Presence</h2>
+    <p>
+      We operate across all major Indian metros including 
+      <strong>Delhi NCR, Mumbai, Pune, Hyderabad, Bangalore, Chennai, Kolkata, Ahmedabad</strong> 
+  and several other cities. Our wide network ensures quick and efficient 
+  deployment of personnel wherever you need us.
+    </p>
+
+    <div class="contact-card">
+      <h3>📞 Contact Information</h3>
+      <p><strong>Phone:</strong> <a href="tel:9910760181">9910760181</a>, <a href="tel:9910760191">9910760191</a></p>
+      <p><strong>Email:</strong> <a href="mailto:bmlstaffsolution@gmail.com">bmlstaffsolution@gmail.com</a></p>
+      <p><strong>Address:</strong> 1/5A, Nasir Pur Palam, New Delhi-110045</p>
+    </div>
+  </div>
+</section>
+</section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="site-wrap">
+      <div class="card">
+        <h2>Our Services</h2>
+        
+        <div class="service-detail">
+          <h3>Security Services</h3>
+          <div class="service-items">
+            <div class="service-item">
+              <h4>Security Guards</h4>
+              <p>Trained security personnel for residential, commercial, and industrial properties.</p>
+            </div>
+            <div class="service-item">
+              <h4>Bouncers</h4>
+              <p>Professional bouncers for events, clubs, and venues requiring crowd control.</p>
+            </div>
+            <div class="service-item">
+              <h4>Armed PSO</h4>
+              <p>Armed Personal Security Officers for high-risk environments and VIP protection.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service-detail">
+          <h3>Staffing Solutions</h3>
+          <div class="service-items">
+            <div class="service-item">
+              <h4>House Keeping Staff</h4>
+              <p>Professional cleaning and maintenance staff for various facilities.</p>
+            </div>
+            <div class="service-item">
+              <h4>Facility Management</h4>
+              <p>Comprehensive facility management solutions for large complexes.</p>
+            </div>
+            <div class="service-item">
+              <h4>Custom Staffing</h4>
+              <p>Tailored staffing solutions based on specific client requirements.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <main class="site-wrap">
-    <div class="grid">
-      <div>
-        <div class="card">
-          <h3>Our Journey</h3>
-          <p style="color:var(--muted)">Since 1991, BML Staffing Solutions has provided expert manpower and security services across residential, corporate and industrial clients. Our team focuses on training, vetting and reliable response — delivering measurable safety outcomes.</p>
-
-          <h4 style="margin-top:18px">Our Services</h4>
-          <div class="services">
-            <div class="service"><h4>Manned Guarding</h4><p>Access control, patrols, and incident reporting by trained personnel.</p></div>
-            <div class="service"><h4>Event Security</h4><p>Crowd management, marshals and rapid-response teams for events.</p></div>
-            <div class="service"><h4>Housekeeping & Facility Management</h4><p>From spotless glass cleaning to hygienic maintenance of premises, our trained housekeeping staff ensures your workplace and living spaces remain clean, organized, and welcoming.</p></div>
+  <!-- Get Quote Section (User Registration) -->
+  <section id="quote" class="section">
+    <div class="site-wrap">
+      <div class="card">
+        <h2>Get Instant Quote</h2>
+        <p class="subtitle">Trusted By 2000+ MNC's | All India Presence</p>
+        
+        <form id="quoteForm" class="quote-form">
+          <div class="form-group">
+            <label for="securityNeeds">Choose Your Security Needs*</label>
+            <select id="securityNeeds" name="securityNeeds" required>
+              <option value="">Select an option</option>
+              <option value="Security Guards">Security Guards</option>
+              <option value="Bouncers">Bouncers</option>
+              <option value="Armed PSO">Armed PSO</option>
+              <option value="House Keeping Staffs">House Keeping Staffs</option>
+              <option value="Facility Management Solutions">Facility Management Solutions</option>
+              <option value="Others">Others</option>
+            </select>
           </div>
-
-          <h4 style="margin-top:18px">Knowledge & Insights</h4>
-          <div class="articles" id="articles">
-            <article class="article">
-              <img src="images/13.jpeg" alt="workforce planning">
-              <div class="body">
-                <h5>Elite Security Guards & Personal Protection</h5>
-                <p>Whether it’s safeguarding corporate offices, residential complexes, or managing crowd security at high-profile events, our uniformed security guards represent discipline, vigilance, and professionalism. For special requirements, we also provide personal bodyguards and VIP protection officers — ensuring peace of mind with a commanding presence.</p>
-                <a class="read" href="#">Read more →</a>
-              </div>
-            </article>
-
-            <article class="article">
-              <img src="images/06.jpg" alt="security technology">
-              <div class="body">
-                <h5>Professional Housekeeping & Facility Management</h5>
-                <p>From spotless glass cleaning to hygienic maintenance of premises, our trained housekeeping staff ensures your workplace and living spaces remain clean, organized, and welcoming. Each member of our team undergoes rigorous training to deliver results that meet professional standards, so you can focus on your core priorities while we take care of the details.</p>
-                <a class="read" href="#">Read more →</a>
-              </div>
-            </article>
-
-            <article class="article">
-              <img src="images/12.jpeg" alt="training programs">
-              <div class="body">
-                <h5>BML Staffing Solutions: Trusted Manpower & Security Services</h5>
-                <p>In today’s fast-paced world, safety and professionalism are not luxuries — they are essentials. At BML Staffing Solutions, we understand the importance of reliable manpower and trusted protection. With decades of experience, we provide end-to-end staffing and security solutions tailored for residences, corporates, events, and industries.</p>
-                <a class="read" href="#">Read more →</a>
-              </div>
-            </article>
+          
+          <div class="form-group">
+            <label for="peopleNeeded">Number of People Needed*</label>
+            <input type="number" id="peopleNeeded" name="peopleNeeded" min="1" required>
           </div>
-        </div>
-
-        <div style="margin-top:18px" class="card">
-          <h4>Gallery</h4>
-          <div class="gallery" id="gallery">
-            <img src="images/01.jpeg" alt="g1" data-full="images/01.jpeg">
-            <img src="images/02.jpeg" alt="g2" data-full="images/02.jpeg">
-            <img src="images/03.jpeg" alt="g3" data-full="images/03.jpeg">
-            <img src="images/04.jpeg" alt="g4" data-full="images/04.jpeg">
-            <img src="images/05.jpeg" alt="g5" data-full="images/05.jpeg">
-            <img src="images/06.jpg" alt="g6" data-full="images/06.jpg">
-            <img src="images/07.jpeg" alt="g7" data-full="images/07.jpeg">
-            <img src="images/08.jpeg" alt="g8" data-full="images/08.jpeg">
-            <img src="images/09.jpeg" alt="g9" data-full="images/09.jpeg">
-            <img src="images/10.jpeg" alt="g10" data-full="images/10.jpeg">
-            <img src="images/11.jpeg" alt="g11" data-full="images/11.jpeg">
-            <img src="images/12.jpeg" alt="g12" data-full="images/12.jpeg">
-            <img src="images/13.jpeg" alt="g13" data-full="images/13.jpeg">
-            <img src="images/14.jpeg" alt="g14" data-full="images/14.jpeg">
-            <img src="images/15.jpeg" alt="g15" data-full="images/15.jpeg">
-            <img src="images/16.jpeg" alt="g16" data-full="images/16.jpeg">
+          
+          <div class="form-group">
+            <label for="urgency">How Urgently Required*</label>
+            <select id="urgency" name="urgency" required>
+              <option value="">Select an option</option>
+              <option value="ASAP">ASAP</option>
+              <option value="Within 1-2 Months">Within 1-2 Months</option>
+              <option value="Not Sure Yet">Not Sure Yet</option>
+            </select>
           </div>
-        </div>
-
+          
+          <div class="form-group">
+            <label for="fullName">Full Name*</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="workEmail">Your Work Email*</label>
+            <input type="email" id="workEmail" name="workEmail" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="organization">Organisation Name</label>
+            <input type="text" id="organization" name="organization">
+          </div>
+          
+          <div class="form-group">
+            <label for="mobile">Your Mobile Number*</label>
+            <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}">
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Additional Requirements (Optional)</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">Submit Request</button>
+        </form>
       </div>
-
-      <aside>
-        <div class="card">
-          <h4>Contact & Quick Info</h4>
-          <div class="contact-info">
-            <div>📞 <a href="tel:9910760181">9910760181</a>, <a href="tel:9910760191">9910760191</a></div>
-            <div>✉️ <a href="mailto:bmlstaffsolution@gmail.com">bmlstaffsolution@gmail.com</a></div>
-            <div>📍 1/5A, Nasir Pur Palam, New Delhi-110045</div>
-          </div>
-
-          <div class="map-wrap">
-            <iframe class="map" loading="lazy" src="https://www.google.com/maps?q=1/5A,+Nasir+Pur+Palam,+New+Delhi-110045&output=embed"></iframe>
-          </div>
-        </div>
-
-        <div style="margin-top:18px" class="card">
-          <h4>Why choose BML?</h4>
-          <ul style="color:var(--muted);line-height:1.8">
-            <li>Vetted & trained personnel</li>
-            <li>24/7 support & rapid response</li>
-            <li>Customised staffing solutions</li>
-            <li>Transparent reporting & supervision</li>
-          </ul>
-        </div>
-      </aside>
     </div>
+  </section>
 
-    <footer>
-      <div class="site-wrap">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-          <div>&copy; 2025 BML Staffing Solutions Pvt. Ltd.</div>
-          <div style="color:var(--muted);font-size:13px">Designed for clarity — responsive on mobile & desktop</div>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="site-wrap">
+      <div class="card">
+        <h2>Contact Us</h2>
+        
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <div class="contact-item">
+              <h4>Phone</h4>
+              <p><a href="tel:9910760181">9910760181</a>, <a href="tel:9910760191">9910760191</a></p>
+            </div>
+            
+            <div class="contact-item">
+              <h4>Email</h4>
+              <p><a href="mailto:bmlstaffsolution@gmail.com">bmlstaffsolution@gmail.com</a></p>
+            </div>
+            
+            <div class="contact-item">
+              <h4>Address</h4>
+              <p>1/5A, Nasir Pur Palam, New Delhi-110045</p>
+            </div>
+            
+            <div class="contact-item">
+              <h4>Business Hours</h4>
+              <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="contactName">Your Name*</label>
+                <input type="text" id="contactName" name="contactName" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="contactEmail">Your Email*</label>
+                <input type="email" id="contactEmail" name="contactEmail" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="contactSubject">Subject</label>
+                <input type="text" id="contactSubject" name="contactSubject">
+              </div>
+              
+              <div class="form-group">
+                <label for="contactMessage">Message*</label>
+                <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
         </div>
       </div>
-    </footer>
-  </main>
+    </div>
+  </section>
 
+  <footer>
+    <div class="site-wrap">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>&copy; 2025 BML Staffing Solutions Pvt. Ltd.</div>
+        <div style="color:var(--muted);font-size:13px">Designed for clarity — responsive on mobile & desktop</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
   <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
     <button class="close" aria-label="Close">✕</button>
     <img src="" alt=""/>
