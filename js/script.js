@@ -120,7 +120,18 @@ document.addEventListener('DOMContentLoaded', function() {
       
       // In a real application, you would send this data to a server
       // For demonstration, we'll simulate saving to a folder
-      console.log('Form data to be saved:', formData);
+      fetch('/save-quote', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(formData)
+})
+.then(res => res.json())
+.then(data => {
+  alert(data.message);
+  quoteForm.reset();
+})
+.catch(err => console.error('Error saving form:', err));
+
       
       // Simulate saving data (in a real app, this would be a server request)
       alert('Thank you for your inquiry! We will contact you shortly.');
@@ -154,7 +165,18 @@ document.addEventListener('DOMContentLoaded', function() {
       };
       
       // In a real application, you would send this data to a server
-      console.log('Contact form data to be saved:', formData);
+      fetch('/save-quote', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(formData)
+})
+.then(res => res.json())
+.then(data => {
+  alert(data.message);
+  quoteForm.reset();
+})
+.catch(err => console.error('Error saving form:', err));
+
       
       // Simulate saving data
       alert('Thank you for your message! We will get back to you soon.');
@@ -162,3 +184,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
